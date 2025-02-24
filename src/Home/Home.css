@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;700&display=swap');
+
+body {
+  font-family: 'Pridi', serif;
+  margin: 0;
+  padding: 0;
+}
+
+#Home {
+  width: 100%;
+  background-color: rgb(77, 8, 253);
+  margin-top: 200px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(19, 0, 70);
+  width: auto;    
+  height: 400px;    
+  margin: 0 auto;      
+  padding: 20px;
+  border-radius: 10px; 
+}
+.profile{
+    width:  400px;
+    border-radius: 400%;
+}
+
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin: 0 0 10px;
+  margin-left: 20px;
+  font-size: 3rem;
+  font-weight: 500;
+  
+  
+}
+p {
+  color: rgb(196, 196, 196);
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.4rem;    
+}
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    gap: 0;
+    margin: 50px;
+    padding: 0;
+   width: 600px;
+  
+  }
+  
