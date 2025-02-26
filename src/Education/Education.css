@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@400;700&display=swap');
+
+body {
+  font-family: 'Pridi', serif;
+  margin: 0;
+  padding: 0;
+}
+
+#Education {
+    background-color: rgb(31, 30, 30);
+    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Edu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .Edu-text{
+    
+  }
+  .Edu-container h1{
+    color: rgb(255, 145, 0);
+    font-size: 3rem;
+  }
+  .Edu-container p{
+    color: rgb(255, 255, 255);
+    padding: 20px 80px;
+    background-color: rgb(177, 102, 4);
+    border-radius: 20px;
+    font-size: 1.5rem;
+  }
+
+  
