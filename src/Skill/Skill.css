@@ -1,0 +1,96 @@
+#Skill{
+    background-color: rgb(236, 16, 16);
+    margin-top: 0px;
+    margin-bottom: 100px;
+    width: 100vw;
+    height: 100vh;
+}
+.Skill-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;   
+        margin: 0 auto;      
+        padding: 20px;
+        border-radius: 10px; 
+        background-color: rgb(0, 9, 27);
+}
+.Skill-name{
+    color: white;
+}
+.Skill-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Skill-detail{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Skill-name{
+    font-size: 2rem;
+}
+.Skill-detail{
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+.Skill-img{
+    width: 550px;
+    display: flex;
+    /* background-color: rgba(240, 248, 255, 0.048); */
+    justify-content: center;
+    /* border-radius: 1000px; */
+}
+.HTML-logo{
+    height: 90px;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.CSS-logo{
+    height: 90px;
+    background-color: aliceblue;
+    margin-right: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.JS-logo{
+    height: 90px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.REACT_Logo{
+    height: 110px;
+    margin-right: 50px;
+}
+.VITE_Logo{
+    height: 110px;
+}
+
+.GIT_Logo{
+    height: 100px;
+    margin-right: 40px;
+}
+.GITHUB_Logo{
+    width: 100px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 100%;
+}
+.FIGMA_Logo{
+    height: 90px;
+    margin-right: 50px;
+}
+.CANVA_Logo{
+    height: 90px;
+}

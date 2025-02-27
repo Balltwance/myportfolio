@@ -8,7 +8,7 @@ body {
 
 #Home {
   width: auto;
-  background-color: rgb(165, 130, 255);
+  background-color: rgb(2, 0, 8);
   margin-top: 0px;
   margin-bottom: 100px;
   width: 100vw;
@@ -20,12 +20,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(19, 0, 70);
+  background-color: rgb(6, 0, 26);
   width: 100vw;
   height: 100vh;   
   margin: 0 auto;      
   padding: 20px;
   border-radius: 10px; 
+ 
   
   
 }
@@ -119,4 +120,5 @@ body {
   cursor: pointer;
   transform: scale(1.3);
 }
+
 

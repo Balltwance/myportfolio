@@ -27,16 +27,17 @@ ul li a {
     background-color: aliceblue;
     padding: 10px 30px;
     border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 ul li a:hover {
     color: #ffffff;
-    background: rgb(0, 125, 100);
+    background: rgb(28, 212, 166);
     font-size: 1.7rem;
 }
 ul li a.active {
-    color: #ffffff;
-    background: rgb(0, 72, 58);
+    color: #000000;
+    background: rgb(0, 219, 117);
 }
 
 

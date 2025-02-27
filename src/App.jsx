@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './navbar/navbar'
 import Home from './Home/Home'
 import Education from './Education/Education'
+import Skill from './Skill/Skill'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Home></Home>
       <Education></Education>
+       <Skill></Skill>
     </div>
   )
 }

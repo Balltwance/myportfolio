@@ -20,7 +20,7 @@ const Navbar = () => {
       <ul className="menu">
         <li><a href="#Home" className={active === "#Home" ? "active" : ""}>Home</a></li>
         <li><a href="#Education" className={active === "#Education" ? "active" : ""}>Education</a></li>
-        <li><a href="#Services" className={active === "#Services" ? "active" : ""}>Services</a></li>
+        <li><a href="#Skill" className={active === "#Skill" ? "active" : ""}>Skill</a></li>
         <li><a href="#Contact" className={active === "#Contact" ? "active" : ""}>Contact</a></li>
       </ul>
     </header>

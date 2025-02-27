@@ -20,8 +20,6 @@ const Education = () => {
                 <p className='text-year'>2022-ปัจจุบัน</p>
                 <h2 className='text-eduname'>มหาวิทยาลัยสยาม</h2>
                 <p className='text-level'>คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิมเตอร์ (ชั้นปีที่ 3)</p>
-
-
                 </div>
                 </div>
                 
