@@ -3,7 +3,7 @@ header {
    justify-content: center;
     /* justify-content: space-between; */
     align-items: center;
-    background: linear-gradient(to bottom, #dee6ee 50% , #e0e0e0);
+    background: transparent;
     padding: 15px 20px;
     position: fixed;
     width: 100%;
@@ -23,17 +23,22 @@ ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
-    transition: color 0.3s ease;
-    transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease, color 0.5s ease,background-color 0.5s ease;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 100px;
 }
 
 ul li a:hover {
-    color: #c90000;
+    color: #ffffff;
+    background: rgb(0, 125, 100);
+    font-size: 1.7rem;
 }
-ul li a:hover {
-    color: #c90000;
-    font-size: 20px;
+ul li a.active {
+    color: #ffffff;
+    background: rgb(0, 72, 58);
 }
+
 
 
 /* .logoheade
