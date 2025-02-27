@@ -21,10 +21,15 @@ body {
     height: 100vh;
     align-items: center;
   }
-
-  .Edu-container h1{
+  .Edu-detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .Edu-detail h1{
     background: linear-gradient(to right, rgb(117, 0, 133), rgb(194, 0, 129));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
     margin-top: 100px;

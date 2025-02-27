@@ -10,9 +10,10 @@ const Education = () => {
         <section id='Education'>
        
             <div className="Edu-container">
-                <h1>ประวัติการศึกษา</h1>
+               
 
                 <div className="Edu-detail">
+                <h1>ประวัติการศึกษา</h1>
                 <div className="place-container">
                 <img className='place-logo' src={SiamLogo} alt="" />
                 <div className="place-text">
