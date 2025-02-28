@@ -1,7 +1,6 @@
 #Project{
     background-color: rgb(6, 0, 27);
     margin-top: 0px;
-    width: 100vw;
     height: auto;
 }
 
@@ -64,3 +63,9 @@ h1{
 .Github-icon{
     font-size: 40px;
 }
+@media screen and (max-width: 768px){
+.Project-box{
+    
+}
+}
+    

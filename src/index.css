@@ -2,9 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Pridi', serif;
+  width: 100dvh;
+  display: flex;
 }
 body{
-  background-color: rgb(14, 0, 48);
+  background-color: rgb(76, 0, 255);
 }
 html {
   scroll-behavior: smooth;
