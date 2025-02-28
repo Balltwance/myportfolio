@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("hashchange", handleHashChange);
-    handleHashChange(); // เรียกครั้งแรกเพื่อกำหนดค่าเริ่มต้น
+    handleHashChange();
 
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
@@ -44,7 +44,10 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#Education" className={active === "#Education" ? "active" : ""}>
+          <a
+            href="#Education"
+            className={active === "#Education" ? "active" : ""}
+          >
             Education
           </a>
         </li>
@@ -54,8 +57,16 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#Contact" className={active === "#Contact" ? "active" : ""}>
-            Contact
+          <a href="#Project" className={active === "#Project" ? "active" : ""}>
+            Project
+          </a>
+        </li>
+        <li>
+          <a
+            href="#Contract"
+            className={active === "#Contract" ? "active" : ""}
+          >
+            Contract
           </a>
         </li>
       </ul>

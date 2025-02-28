@@ -1,0 +1,66 @@
+#Project{
+    background-color: rgb(6, 0, 27);
+    margin-top: 0px;
+    width: 100vw;
+    height: auto;
+}
+
+.Project-container{
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    
+    font-size: 100px;
+    text-align: left;
+}
+.Project-box{
+    display: flex;
+    background-color: rgba(186, 255, 226, 0.13);
+    padding: 20px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.Project-box-header{
+    display: flex;
+    justify-content: space-between;;
+}
+.Project-icon{
+    display: flex;
+}
+.Github-icon{
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.Project-text-detail{
+    color: rgb(209, 209, 209);
+}
+.MyPortfolioWebsite{
+    height: 250px;
+    border-radius: 10px;
+}
+.Project-tech{
+    display: flex;
+    flex-direction: row;
+}
+.Project-tech p{
+    background-color: rgba(240, 248, 255, 0.411);
+    margin-right: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.Project-text{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.Github-icon{
+    font-size: 40px;
+}

@@ -1,17 +1,19 @@
 #Skill{
     background-color: rgb(236, 16, 16);
     margin-top: 0px;
-    margin-bottom: 100px;
+    display: flex;
     width: 100vw;
-    height: 100vh;
+    max-height: 100%;
+    align-items: center;
 }
+
 .Skill-container{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 100vw;
-        height: 100vh;   
+        height: auto;   
         margin: 0 auto;      
         padding: 20px;
         border-radius: 10px; 
@@ -38,7 +40,7 @@
     font-size: 2rem;
 }
 .Skill-detail{
-    font-size: 1.5rem;
+    font-size: clamp(1.3rem,1vw + 0.4rem, 3rem);
     margin: 10px;
     margin-bottom: 100px;
 }
